@@ -138,7 +138,7 @@ export default {
 
 .pagination button {
   padding: 10px 20px;
-  background-color: #007bff;
+
   background: rgb(149, 149, 149);
   background: linear-gradient(
     357deg,
@@ -149,7 +149,7 @@ export default {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background 0.3s;
 }
 
 .pagination button:disabled {
@@ -158,7 +158,9 @@ export default {
 }
 
 .pagination button:hover:not(:disabled) {
-  background-color: #0056b3;
+  background-color: grey;
+
+  transform: scale(1.02);
 }
 
 @media (max-width: 600px) {
