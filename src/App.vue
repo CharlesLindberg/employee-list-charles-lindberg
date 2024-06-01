@@ -29,7 +29,6 @@ export default {
 </script>
 
 <style>
-/* Globala stilar */
 body {
   font-family: "Arial", sans-serif;
   margin: 0;
@@ -73,7 +72,6 @@ footer {
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsiva stilar */
 @media (max-width: 600px) {
   header {
     padding: 15px;
